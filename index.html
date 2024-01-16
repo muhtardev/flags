@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="flags">
+        <input type="text" id="searchInput" placeholder="Search by country name...">
+        <button onclick="searchFlags()">Search</button>
+        <button onclick="sortFlags('asc')">Sort A-Z</button>
+        <button onclick="sortFlags('desc')">Sort Z-A</button>
+        <button onclick="deleteFlags()">Delete All</button>
+    </div>
+
+    <div class="flags-container"></div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
